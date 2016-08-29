@@ -18,6 +18,7 @@
 
 find_package( LibRados REQUIRED )
 find_package( Boost REQUIRED COMPONENTS thread )
+find_package( Boost REQUIRED COMPONENTS filesystem system REQUIRED )
 
 include_directories( ${PROJECT_SOURCE_DIR}/src ${RADOS_INCLUDE_DIR} ${Boost_INCLUDE_DIRS} )
 

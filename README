@@ -111,3 +111,6 @@ Here is how to use it:
   a summary. If used together with the fix option, it will show what was fixed
   and how. If the dry run option is also used, it will show what would be done
   for each fix attempt.
+
+my tricks:
+	add my.txt file

@@ -19,6 +19,7 @@
 find_package( GTest )
 find_package( LibRados REQUIRED )
 find_package( Boost REQUIRED COMPONENTS thread )
+find_package( Boost REQUIRED COMPONENTS filesystem system REQUIRED )
 
 if (GTEST_FOUND)
 include_directories( ${PROJECT_SOURCE_DIR}/src ${GTEST_INCLUDE_DIRS} ${RADOS_INCLUDE_DIR} ${Boost_INCLUDE_DIRS} )
